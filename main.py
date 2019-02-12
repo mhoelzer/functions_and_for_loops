@@ -46,7 +46,7 @@ def factorial(factorial_num):
     running_num = 1
     for factorial_num_start in range(1, factorial_num + 1):
         # need the + 1 b/c of range will not include 4
-        # fns starts at 1 because of the range
+        # fns starts at 1 because of the range/factorials dont include 0
         running_num = multiply(running_num, factorial_num_start)
     return running_num
 
